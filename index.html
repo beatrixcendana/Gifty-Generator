@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>Gifty Generator</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <!-- Navigation -->
+<nav class="navbarlogo">
+    <a href="UI Assets/Gifty Generator.png" class="w3-button w3-bar-item">
+        <img src="UI Assets/Gifty Generator.png" alt="Gifty Generator" style="width: 200px; height: 50px;">
+    </a>
+  </nav>
+        <h1 class = "headingfont" align = "center">Welcome to Gifty generator!</h1>
+        <p class = "paragraphfont" align = "center">We are here to help you recommend the perfect food for your loved ones!</p>
+
+        <div class = "funnygif" align = "center">
+        <img src="https://media.giphy.com/media/JVGLHEuzbVviw/giphy.gif" alt="funny GIF" width="20%">
+        </div>
+
+        <button onclick = "getLocation()"class = "genbutton" type="button">
+            <a href="" class="w3-button">Give Idea!</a>
+        </button>
+
+        <div class = "linktosend" align = "center">
+            <a href="https://www.amazon.com/" class="w3-link">Send Message Secretly</a>
+        </div>
+
+        <script>
+            const x = document.getElementById("demo");
+            
+            function getLocation() {
+              try {
+                navigator.geolocation.getCurrentPosition(showPosition);
+              } catch {
+                x.innerHTML = err;
+              }
+            }
+            
+            function showPosition(position) {
+              x.innerHTML = "Latitude: " + position.coords.latitude + 
+              "<br>Longitude: " + position.coords.longitude;
+            }
+            </script>
+    </body>
+</html>

@@ -1,0 +1,58 @@
+.navbarlogo {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 40px;
+    border: 1px solid transparent;
+}
+
+.headingfont {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 100px;
+}
+
+.paragraphfont {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+    font-size: 24px;
+}
+
+.funnygif {
+    align-content: center;
+}
+
+.genbutton {
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 12px 32px;
+gap: 10px;
+
+position: absolute;
+width: 196px;
+height: 72px;
+left: 823px;
+top: 508px;
+align-content: center;
+
+
+background: #7165f6;
+border-radius: 15px;
+border: none;
+margin-top: 100px;
+
+  }
+
+  .w3-button {
+    text-align: center;
+text-decoration: none;
+font-family: Arial, Helvetica, sans-serif;
+color: aliceblue;
+text-align: center;
+font-size: 24px;
+  }
+
+  .linktosend {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    margin-top: 150px;
+  }
